@@ -23,5 +23,19 @@
         -відступи між елементами по 15px. 
         -зверніть увагу на порядок та місце розташування елементів 
         -дозвольте елементам займати новий рядок в разі потреби*/
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 15px;
+}
 /* 2.Вирівняйте текст всередині еллементів поцентру,
  як вертикально так і горизонтально, звісно ж, використовуючи flexbox */
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
